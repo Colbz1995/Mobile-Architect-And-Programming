@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:useDefaultMargins="true"
+    android:columnCount="3"
+    android:paddingTop="116dp"
+    android:paddingHorizontal="20dp">
+    <TextView
+        android:text="@string/event"
+        android:layout_columnSpan="1"/>
+    <EditText
+        android:layout_width="200dp"
+        android:inputType="text"
+        android:importantForAutofill="no"
+        tools:ignore="LabelFor" />
+    <Space/>
+    <TextView
+        android:text="@string/date"
+        android:layout_columnSpan="1"/>
+    <EditText
+        android:id="@+id/date_edit"
+        android:layout_width="200dp"
+        android:inputType="date"
+        android:importantForAutofill="no"
+        tools:ignore="LabelFor" />
+    <ImageButton
+        android:id="@+id/calender_button"
+        android:src="@drawable/ic_calendar"
+        android:importantForAccessibility="no"
+        android:onClick="selectDate"/>
+    <TextView
+        android:text="@string/time"
+        android:layout_columnSpan="1"/>
+    <EditText
+        android:layout_width="200dp"
+        android:inputType="datetime"
+        android:importantForAutofill="no"
+        tools:ignore="LabelFor"/>
+    <Space/>
+    <Button
+        android:id="@+id/insert_button"
+        android:text="@string/insert"
+        android:onClick="insertData"/>
+
+
+</GridLayout>

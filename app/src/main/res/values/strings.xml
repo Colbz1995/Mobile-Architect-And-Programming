@@ -4,4 +4,23 @@
     <string name="password">Password:</string>
     <string name="sign_in">Sign in</string>
     <string name="sign_up">Not a member? Sign up</string>
+    <string name="col1">Event</string>
+    <string name="col2">Date</string>
+    <string name="col3">Time</string>
+    <string name="row1_event">Birthday Party</string>
+    <string name="row1_date">Oct 10, 2021</string>
+    <string name="row1_time">7:30 p.m.</string>
+    <string name="row2_event">Doctor Appointment</string>
+    <string name="row2_date">Oct 11, 2021</string>
+    <string name="row2_time">7:30 a.m.</string>
+    <string name="row3_event">Meeting</string>
+    <string name="row3_date">Oct 09, 2021</string>
+    <string name="row3_time">9:00 a.m.</string>
+    <string name="delete_row">Delete Row</string>
+    <string name="event">Event:</string>
+    <string name="date">Date:</string>
+    <string name="time">Time:</string>
+    <string name="insert">Insert</string>
+    <string name="permission">Allow SMS Messaging to send and view SMS messages?</string>
+    <string name="editData">Would you like to edit the data?</string>
 </resources>
